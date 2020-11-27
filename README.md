@@ -62,6 +62,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website []
-- GitHub []
+- Website [https://adelekeolamide.github.io/Olamide-s-Portfolio/]
+- GitHub [https://github.com/Adelekeolamide]
 - Twitter []
