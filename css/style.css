@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+    background-color: #181719;
+  margin: 0 auto;
+  color: white;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif!important;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: none;
+    padding: 35px 15px ;
+    margin: auto!important;
+}
+
+.navbar .active {
+background-color: black!important;
+font-weight: 600;
+}
+
+.navbar a.navbar-brand {
+    padding: 10px;
+    border: solid 1px #ffffff;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+}
+/* Navbar */
+
+/* Showcase */
+
+.showcase {
+    height: 100vh;
+    margin-top: 4rem;
+}
+.showcase h2 {
+    font-family: 'Lora', serif;
+}
+
+.showcase button {
+    box-shadow: none;
+}
+.showcase button:hover {
+    color: blanchedalmond;
+}
+.showcase p {
+    color: #828282;
+}
+
+
+.showcase .img1 img {
+    width: 100%;
+   
+   
+}
+
+.showcase img.icon{
+    border-radius: 50%;
+}
+
+.showcase .x{
+    transform: translateY(-50px);
+    margin-left: 15rem;
+    background-color: #181719;
+    width: fit-content;
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 2px #111111;
+}
+
+.showcase .x {
+font-size: xx-small !important;
+}
+
+.showcase .x  .col-sm-10 p{
+margin: 0;
+}
+
+.showcase .x h6 {
+    font-family: 'Lora', serif;
+}
+/* Showcase */
+
+footer{
+    padding: 25px;
+    color: #a9a9a9;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media (max-width: 768px){
+
+    .showcase {
+        height: 100vh;
+        margin-top: 0;
+    }
+    .showcase .x{
+       
+       margin-left: 4rem; 
+        width: 16rem;
+        padding: 1rem;
+       
+    }
+
+    #basicExampleNav {
+       height: 100vh!important ;
+       align-content: center;
+       text-align: center;
+       margin-top: 25vh;
+
+    }
+
+    #basicExampleNav li {
+        margin-top: 1.6rem;
+        align-items: center;
+    }
+
+    .hide {
+      display: block;
+    }
+}
